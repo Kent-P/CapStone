@@ -1,0 +1,94 @@
+  @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+  html,body
+{
+    font-family: 'Ephesis', cursive;
+    width: 100%;
+    /* height: 100%; */
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.navbar {
+    font-family: 'Ephesis', cursive;
+    font-size: 30px;
+}
+.navbar-brand{
+    font-size: 65px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+#main {
+    /* display: flex; */
+    flex-direction: column;
+    height: 100vh;
+}
+.carousel-item img {
+    margin: 0 auto;
+    height: 100vh;
+  }
+
+#homeImg {
+    height: 100vh;
+    max-width: 100%;
+}
+
+#about {
+    background-color: rgb(227, 227, 227);
+    font-size: 25px;
+}
+#about .contain{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    padding: 20px;
+    color: aliceblue;
+    font-family: 'Nova Square', sans-serif;
+}
+
+#infoImg {
+    height: 500px;
+    padding: 20px;
+}
+
+p{
+    padding: 20px;
+}
+
+#about-title{
+    margin: 0;
+    /* padding-left: 20px; */
+}
+
+#photos {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    
+    column-gap: 3.33%;
+
+    row-gap: 3.33%;
+
+    height: 220vh;
+    width: 100vw;
+    padding: 50px 20px;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    color:#e6e6e6;
+    padding: 20px;
+    text-align:center;
+    font-size: 25px;
+  }
+
+.sidebar {
+    margin: auto;
+    text-align: center;
+}
