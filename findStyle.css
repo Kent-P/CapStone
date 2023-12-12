@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+
+html,body
+{
+    font-family: 'Ephesis', cursive;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.navbar {
+    font-family: 'Ephesis', cursive;
+    font-size: 30px;
+}
+.navbar-brand{
+    font-size: 65px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#showcase {
+    margin-top: 15vh;
+    background-image: url("find.jpeg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+  }
+  #services .container{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+  }
+  #services ul {
+    /* Removes left padding as well as Bullet Points */
+    padding:0;
+  }
+  #services li{
+    border: 1px solid #ccc ;
+    padding: 20px;
+    margin-bottom: 5px ;
+    background-color: #E6E6E6;
+    text-align: center;
+  }
+  #services .sidebar{
+    margin-top: 10px ;
+    font-size: 25px;
+  }
+  #services input, #services textarea {
+    width:90%;
+    margin-bottom: 10px ;
+    padding: 5px;
+  }
+
+  #showcase .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  #showcase h1 {
+    font-size: 150px;
+  }
+
+  #services h3 {
+    font-size: 50px;
+  }
+
+  #services p {
+    font-size: 30px;
+  }
+
+  i {
+    font-size: 60px;
+  }
+
+  #animation {
+    animation-name: annoying;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes annoying {
+    25% {
+      transform: translateY(100px) rotate(90deg);
+  }
+
+  50% {
+      transform: translateX(100px) translateY(100px) rotate(180deg);
+  }
+
+  75% {
+      transform: translateX(100px) rotate(270deg);
+  }
+
+  80% {
+    transform: translateY(-200px);
+  }
+
+  84% {
+    transform: translateY(0px) translateX(-100px);
+  }
+  88% {
+    transform: translateY(-200px);
+  }
+
+  92% {
+    transform: translateY(0px) translateX(-200px);
+  }
+  93% {
+    transform: translateY(-200px);
+  }
+
+  96% {
+    transform: translateY(0px) translateX(-500px);
+  }
+
+  100% {
+  transform: translateX(0) translateY(0) rotate(360deg);
+  }
+}
